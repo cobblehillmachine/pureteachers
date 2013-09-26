@@ -1,4 +1,4 @@
-body {margin:0; padding:0; width:100%; min-width:1000px; color:#231f20; font:normal 15px "nimbus-sans";}
+body {margin:0; padding:0; width:100%; min-width:1050px; color:#231f20; font:normal 15px "nimbus-sans"; line-height:25px;}
 a {text-decoration:none; color:#000; outline:0;}
 a img {border:0;}
 ul {list-style:none; padding:0; margin:0;}
@@ -32,7 +32,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appe
 #header #nav li a:hover {border-bottom:5px solid #e51b24;}
 
 /*FOOTER*/
-#footer {background:#4a4b4c; color:#c7c8ca; padding-top:20px; font-size:13px; margin-top:50px;}
+#footer {background:#4a4b4c; color:#c7c8ca; padding-top:20px; font-size:13px; margin-top:100px;}
 #footer #footer-nav {float:left; width:680px;}
 #footer #footer-nav li {float:left; margin:0 0 20px 0;}
 #footer #footer-nav li:nth-child(4n+1) {width:105px;}
@@ -53,7 +53,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appe
 .ffl-popup-link, .ffl-close-popup-link, #ffl-admin-link, #ffl-logged-in-user {display:none !important;}
 .ffl-popup-content {display:block !important;}
 #ffl-logout-link {float:right; margin-top:-55px;}
-.page-title {font-size:28px; color:#000; float:left; width:100%; margin-bottom:35px; margin-top:75px;}
+.page-title {font-size:28px; color:#000; float:left; width:100%; margin-bottom:35px; margin-top:75px; text-transform:lowercase;}
 .headline {font-size:20px; color:#fff; float:left; width:100%; background:#4a4b4c; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding:15px 0 12px 18px;}
 .flexible-frontend-login .ffl-popup-content {position:relative !important; float:left; box-shadow:none; border:none; padding:0; margin-bottom:80px;}
 .flexible-frontend-login .ffl-form {float:left; width:100%; margin-top:20px;}
@@ -62,7 +62,35 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appe
 .flexible-frontend-login .ffl-form-table-row input {float:left; border:2px solid #dcddde; width:298px; padding:10px !important; height:30px; margin-top:0 !important;}
 .flexible-frontend-login button {float:left; margin-top:25px !important; color:#fff; font-size:14px; border:none; width:246px !important; padding:16px 0 18px 0; background:url(../images/carrot.png) no-repeat 155px 22px #e51b24; cursor:pointer;}
 .flexible-frontend-login button:hover {background:url(../images/carrot.png) no-repeat 155px 22px #4a4b4c;}
+.logged-out {margin-top:75px !important;}
+
+/*PORTAL*/
+.page-title .gray {color:#6c6c6c;}
+.home .portal-header {margin-bottom:40px;}
+.portal-header {float:left; width:100%; }
+.portal-cont {float:left; width:100%; padding:48px 0;}
+.portal-cont:nth-child(2n+0) {background:#edeeee;}
+.portal-cont .portal-icon {float:left; width:235px; height:235px; margin-right:20px;}
+.portal-cont .portal-info {float:left; width:400px;}
+.portal-cont .portal-info .title {float:left; font-size:20px; width:100%;}
+.portal-cont .link-cont {float:right; width:322px;}
+.portal-cont .link-cont a {float:left; width:100%; color:#fff; margin-bottom:12px; background:#e51b24; padding:16px 0 18px 0; text-align:center;}
+.portal-cont .link-cont a:hover {background:#4a4b4c;}
+
+.material {float:left; width:340px; margin-bottom:45px;}
+.material:nth-child(3n+3) {width:315px;}
+.material .title {font-size:20px;}
+.material .link {color:#e51b24;}
+.category #ffl-logout-link, .category .page-title {margin-top:35px;}
+.category .logged-in {border-bottom:1px solid #f1f1f1; padding-bottom:40px;}
+.tuto {float:left; width:100%; font-size:15px; text-transform:none; margin-top:20px;}
 
 
+@media screen and (max-device-width: 479px) {
+	body {min-height:1200px;} 
+}
 
+@media screen and (max-device-width: 1024px) {
+	body {min-height:1300px;} 
+}
 

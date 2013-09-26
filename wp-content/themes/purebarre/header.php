@@ -84,5 +84,5 @@
 			</div>
 		</div>
 		<div id="main-wrap">
-			<div class="mid-cont">
+			<!-- <div class="mid-cont"> -->
 
