@@ -50,9 +50,11 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appe
 #footer #social-cont #instagram:hover {background-position:-80px -18px;}
 
 /*LOGIN*/
-.ffl-popup-link, .ffl-close-popup-link, #ffl-admin-link, #ffl-logged-in-user {display:none !important;}
+.ffl-popup-link, .ffl-close-popup-link, #ffl-admin-link {display:none !important;}
 .ffl-popup-content {display:block !important;}
 #ffl-logout-link {float:right; margin-top:-55px;}
+#ffl-logged-in-user {position:absolute; right:0; margin:-55px 90px 0 0;}
+#ffl-logged-in-user:before {content:"Logged in as ";}
 .page-title {font-size:28px; color:#000; float:left; width:100%; margin-bottom:35px; margin-top:75px; text-transform:lowercase;}
 .headline {font-size:20px; color:#fff; float:left; width:100%; background:#4a4b4c; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding:15px 0 12px 18px;}
 .flexible-frontend-login .ffl-popup-content {position:relative !important; float:left; box-shadow:none; border:none; padding:0; margin-bottom:80px;}
@@ -73,15 +75,15 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appe
 .portal-cont .portal-icon {float:left; width:235px; height:235px; margin-right:20px;}
 .portal-cont .portal-info {float:left; width:400px;}
 .portal-cont .portal-info .title {float:left; font-size:20px; width:100%;}
-.portal-cont .link-cont {float:right; width:322px;}
+.portal-cont .link-cont {float:right; width:345px;}
 .portal-cont .link-cont a {float:left; width:100%; color:#fff; margin-bottom:12px; background:#e51b24; padding:16px 0 18px 0; text-align:center;}
 .portal-cont .link-cont a:hover {background:#4a4b4c;}
 
-.material {float:left; width:340px; margin-bottom:45px;}
-.material:nth-child(3n+3) {width:315px;}
+.material {float:left; width:300px; margin-bottom:45px; min-height:105px; margin-right:50px;}
+.material:nth-child(3n+3) {margin-right:0;}
 .material .title {font-size:20px;}
 .material .link {color:#e51b24;}
-.category #ffl-logout-link, .category .page-title {margin-top:35px;}
+.category #ffl-logout-link, .category .page-title, .category #ffl-logged-in-user {margin-top:35px;}
 .category .logged-in {border-bottom:1px solid #f1f1f1; padding-bottom:40px;}
 .tuto {float:left; width:100%; font-size:15px; text-transform:none; margin-top:20px;}
 

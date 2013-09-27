@@ -24,7 +24,7 @@ get_header(); ?>
 					<?php if(is_category(7)) { ?>
 					<?php } else if(is_category(10)) { ?>
 					<?php } else { ?>
-						<div class="tuto">Download Pure Barre videos by right-clicking on the link and choose the option "Save link as".<br/> To watch the video, simply click on the "watch video" link.</div>
+						<!-- <div class="tuto">Download Pure Barre videos by right-clicking on the link and choose the option "Save link as".<br/> To watch the video, simply click on the "watch video" link.</div> -->
 					<?php } ?>
 				</div>
 			</div>
